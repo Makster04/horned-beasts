@@ -1,15 +1,16 @@
 import Header from './Header';
 import Footer from './Footer';
 import Gallery from './Gallery';
+import './App.css';
 
-const App = () => {
-    return (
-        <div>
-            <Header />
-            <Gallery />
-            <Footer />
-        </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Gallery />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

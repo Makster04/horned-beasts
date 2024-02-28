@@ -1,9 +1,9 @@
 const Header = () => {
-    return (
+  return (
       <header>
-        <h1>My Gallery App</h1>
+          <h1>Horned Beasts</h1>
       </header>
-    );
-  };
-  
-  export default Header;
+  );
+}
+
+export default Header;

@@ -1,22 +1,26 @@
-import HornedBeast from './HornedBeast';
-import  Unicorn from './Unicorn.jpg';
-import  Dragon from './Dragon.jpg';
+import HornedBeasts from "./HornedBeasts";
+import beast1Image from "./assets/horned-beast1.jpg";
+import beast2Image from "./assets/horned-beast2.jpg";
 
 const Gallery = () => {
-  return (
-    <div className="gallery">
-      <HornedBeast
-        title="Unicorn"
-        imageUrl={Unicorn}
-        description="A mythical creature with a single horn on its head."
-      />
-      <HornedBeast
-        title="Dragon"
-        imageUrl={Dragon}
-        description="A legendary creature resembling a reptile or serpent."
-      />
-    </div>
-  );
+    return (
+        <div>
+            <h2>This is the Gallery</h2>
+            <div>
+            <HornedBeasts
+                title="Animal 1"
+                imageUrl={beast1Image}
+                description="Southern Horned Beast"
+            />
+            <HornedBeasts
+                title="Animal 2"
+                imageUrl={beast2Image}
+                description="Mediterranian Horned Beast"
+            />
+        </div>
+        </div>
+        
+    );
 };
 
 export default Gallery;

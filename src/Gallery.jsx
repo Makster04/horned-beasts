@@ -1,23 +1,25 @@
-import HornedBeasts from "./HornedBeast";
-import beast1Image from "./assets/horned-beast1.jpg";
-import beast2Image from "./assets/horned-beast2.jpg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HornedBeasts from "./HornedBeasts.jsx";
+import data from './assets/data.json';
+import Row from 'react-bootstrap/Row';
 
 const Gallery = () => {
     return (
         <div>
-            <h2>This is the Gallery</h2>
+            <h2>Gallery</h2>
             <div>
-            <HornedBeasts
-                title="Balkan Beast"
-                imageUrl={beast1Image}
-                description="Southern Horned Beast"
-            />
-            <HornedBeasts
-                title="Caucus Beast"
-                imageUrl={beast2Image}
-                description="Mediterranian Horned Beast"
-            />
-        </div>
+            <Row xs="auto" md="auto" lg="auto">
+                {data.map(obj => {
+                return (
+                    <HornedBeasts 
+                    key={obj._id}
+                    title={obj.title} 
+                    description={obj.description} 
+                    imageUrl={obj.image_url} />  
+                )
+                    })}
+            </Row>
+            `</div>
         </div>
         
     );

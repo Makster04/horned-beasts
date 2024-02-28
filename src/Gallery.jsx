@@ -1,4 +1,4 @@
-import HornedBeasts from "./HornedBeasts";
+import HornedBeasts from "./HornedBeast";
 import beast1Image from "./assets/horned-beast1.jpg";
 import beast2Image from "./assets/horned-beast2.jpg";
 
@@ -8,12 +8,12 @@ const Gallery = () => {
             <h2>This is the Gallery</h2>
             <div>
             <HornedBeasts
-                title="Animal 1"
+                title="Balkan Beast"
                 imageUrl={beast1Image}
                 description="Southern Horned Beast"
             />
             <HornedBeasts
-                title="Animal 2"
+                title="Caucus Beast"
                 imageUrl={beast2Image}
                 description="Mediterranian Horned Beast"
             />

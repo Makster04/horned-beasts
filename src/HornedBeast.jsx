@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 const HornedBeasts = ({title, imageUrl, description}) => {
     return (
         <div>
@@ -8,11 +9,13 @@ const HornedBeasts = ({title, imageUrl, description}) => {
         </div>
     );
 }
+
 HornedBeasts.propTypes = {
     title: PropTypes.string.isRequired,
     imageUrl: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
 };
+
 export default HornedBeasts;
 
 

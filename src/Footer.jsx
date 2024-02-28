@@ -1,10 +1,9 @@
-
 const Footer = () => {
-    return (
-        <footer>
-            <p>Author: [Your Name]</p>
-        </footer>
-    );
-}
+  return (
+      <footer>
+          <p>&copy; Mak Trnka</p>
+      </footer>
+  );
+};
 
 export default Footer;

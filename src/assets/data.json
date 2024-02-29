@@ -1,104 +1,104 @@
 [
   {
     "_id": 1,
-    "image_url": "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
-    "title": "UniWhal",
+    "image_url": "/src/assets/AlbanianBeast.jpg",
+    "title": "Albanian Beast",
     "description": "A unicorn and a narwhal nuzzling their horns",
     "keyword": "narwhal",
     "horns": 1
   },
   {
     "_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80",
-    "title": "Rhino Family",
+    "image_url": "/src/assets/BosnianBeast.jpg",
+    "title": "Bosnian Beast",
     "description": "Mother (or father) rhino with two babies",
     "keyword": "rhino",
     "horns": 2
   },
   {
     "_id": 3,
-    "image_url": "https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg",
-    "title": "Unicorn Head",
+    "image_url": "/src/assets/BulgarianBeast.jpg",
+    "title": "Bulgarian Beast",
     "description": "Someone wearing a creepy unicorn head mask",
     "keyword": "unicorn",
     "horns": 1
   },
   {
     "_id": 4,
-    "image_url": "https://images.unsplash.com/photo-1518946222227-364f22132616?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4836a6fca62e7dce9324346bacfde085&auto=format&fit=crop&w=2534&q=80",
-    "title": "UniLego",
+    "image_url": "/src/assets/CroatianBeast.jpg",
+    "title": "Croatian Beast",
     "description": "Lego figurine dressed in a unicorn outfit",
     "keyword": "unilego",
     "horns": 1
   },
   {
     "_id": 5,
-    "image_url": "https://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg",
-    "title": "Basically a unicorn",
+    "image_url": "/src/assets/GreekBeast.jpg",
+    "title": "Greek Beast",
     "description": "A narwhal is basically a unicorn after all, right?",
     "keyword": "narwhal",
     "horns": 1
   },
   {
     "_id": 6,
-    "image_url": "https://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg",
-    "title": "#truth",
+    "image_url": "/src/assets/KosovanBeast.jpg",
+    "title": "Kosovan Beast",
     "description": "The truth behind narwhals",
     "keyword": "narwhal",
     "horns": 1
   },
   {
     "_id": 7,
-    "image_url": "https://secure.img1-ag.wfcdn.com/im/17007094/resize-h800%5Ecompr-r85/3589/35892451/Baby+Rhino+Figurine.jpg",
-    "title": "Baby Rhino",
+    "image_url": "/src/assets/MoldovanBeast.jpg",
+    "title": "Moldovan Beast",
     "description": "This is actually a figurine but it looks kinda real",
     "keyword": "rhino",
     "horns": 2
   },
   {
     "_id": 8,
-    "image_url": "https://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003",
-    "title": "Cera",
+    "image_url": "/src/assets/MontenegrianBeast.jpg",
+    "title": "Montenegrian Beast",
     "description": "Three horns but still, horns. And who doesn't like The Land Before Time?",
     "keyword": "triceratops",
     "horns": 3
   },
   {
     "_id": 9,
-    "image_url": "https://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg",
-    "title": "Narwhal costume",
+    "image_url": "/src/assets/NorthMacedonianBeast.jpg",
+    "title": "North Macedonian Beast",
     "description": "A woman wearing a blue narwhal costume",
     "keyword": "narwhal",
     "horns": 1
   },
   {
     "_id": 10,
-    "image_url": "https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg",
-    "title": "Rhino costume",
+    "image_url": "/src/assets/RomanianBeast.jpg",
+    "title": "Romanian Beast",
     "description": "Mascots have to get their costumes somewhere",
     "keyword": "rhino",
     "horns": 2
   },
   {
     "_id": 11,
-    "image_url": "https://www.tinselbox.com/wp-content/uploads/2018/03/I-BELIEVE-IN-UNICORNS-FREE-PRINTABLE-WATERCOLOR-7-of-1.jpg",
-    "title": "Believe",
+    "image_url": "/src/assets/SerbianBeast.jpg",
+    "title": "Serbian Beast",
     "description": "I believe in unicorns, do you?",
     "keyword": "unicorn",
     "horns": 1
   },
   {
     "_id": 12,
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
-    "title": "Markhor",
+    "image_url": "/src/assets/SlovenianBeast.jpg",
+    "title": "Slovenian Beast",
     "description": "These wild goats eat snakes, then secrete a foam that locals fight over for the antivemon properties -- how cool is that?",
     "keyword": "markhor",
     "horns": 2
   },
   {
     "_id": 13,
-    "image_url": "http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi",
-    "title": "Baby markhor",
+    "image_url": "/src/assets/TurkishBeast.jpg",
+    "title": "Turkish Beast",
     "description": "Even the babies are adorable",
     "keyword": "markhor",
     "horns": 2

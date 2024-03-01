@@ -3,20 +3,19 @@ import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-
-
 const HornedBeasts = (props) => {
   console.log(props);
     const [likes, setLikes] = useState(0);
   
     const handleLike = () => {
-      if (likes < 100) {
-        if (likes === 100) {
+      if (likes < 10) {
+        if (likes === 9) {
           props.onWin(props.imageUrl, props.title, props.description, likes + 1);
         }
         setLikes(likes + 1);
       }
     }
+
     
     return (
         <Card style={{ width: '18rem' }}>

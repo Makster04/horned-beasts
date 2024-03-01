@@ -1,27 +1,58 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Header.jsx';
 import Gallery from './Gallery.jsx';
 import Footer from './Footer.jsx';
-import data from './assets/data.json';
+import { Modal } from 'react-bootstrap';
+
+
 
 function App() {
-  const [searchQuery, setSearchQuery] = useState('');
+  let [show, setLikes] = useState(false);
+  let [bestBeast, setMostLiked] = useState(null);
+  let [bestBeastLikes, setBestBeastLikes] = useState(0);
+  let [bestBeastTitle, setBestBeastTitle] = useState('');
+  let [bestBeastDescription, setBestBeastDescription] = useState('');
 
-  const handleSearchQueryChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
+  const onWin = (bestBeastImageUrl, title, description, likes) => {
+    setMostLiked(bestBeastImageUrl);
+    setBestBeastLikes(likes);
+    setBestBeastTitle(title);
+    setBestBeastDescription(description);
+    setLikes(true);
+  }
+
+  const closeModal = () => {
+    setMostLiked(false);
+
+  }
 
   return (
+    <>
+      <Modal show={show} onHide={closeModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Winner!!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {bestBeastLikes === 10 && bestBeast ? (
+            <>
+            <img src={bestBeast} alt="Best Beast" />
+            <h2>{bestBeastTitle}</h2> 
+            <p>{bestBeastDescription}</p>
+        </>
+          ) : (
+            <p>Thank you!</p>
+          )
+        }
+        </Modal.Body>
+      </Modal>
     <div>
-      <Header onSearchQueryChange={handleSearchQueryChange} />
-      <Gallery data={data.filter(beast => {
-        const regex = new RegExp(searchQuery, 'i');
-        return regex.test(beast.title) || regex.test(beast.description);
-      })} />
+      <Header />
+      <Gallery onWin={onWin} />
       <Footer />
     </div>
+    </>
   );
 }
 
